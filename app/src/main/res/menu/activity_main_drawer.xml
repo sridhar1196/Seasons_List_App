@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trending_shows"
+            android:title="Trending Shows" />
+        <item
+            android:id="@+id/popular_shows"
+            android:title="Popular Shows" />
+        <item
+            android:id="@+id/most_watched_shows"
+            android:title="Most Watched Shows" />
+        <item
+            android:id="@+id/most_played_shows"
+            android:title="Most Played Shows" />
+        <item
+            android:id="@+id/most_collected_shows"
+            android:title="Most Collected Shows" />
+
+    </group>
+
+</menu>
